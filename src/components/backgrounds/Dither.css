@@ -1,0 +1,13 @@
+.dither-container {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 0;
+}
+
+.dither-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
