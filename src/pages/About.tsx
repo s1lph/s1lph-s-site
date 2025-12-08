@@ -9,6 +9,7 @@ export default function About() {
                 <div className="nav-links">
                     <Link to="/" className="nav-link cursor-target">Главная</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
+                    <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
                 </div>
             </nav>
 
@@ -24,11 +25,11 @@ export default function About() {
                     <div className="skills">
                         <h3 className="skills-title">Навыки</h3>
                         <div className="skill-tags">
-                            <span className="skill-tag cursor-target">Python</span>
-                            <span className="skill-tag cursor-target">Flask</span>
-                            <span className="skill-tag cursor-target">Ai coding</span>
-                            <span className="skill-tag cursor-target">Git</span>
-                            <span className="skill-tag cursor-target">Ai researching</span>
+                            <a href="https://python.org" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Python</a>
+                            <a href="https://flask.palletsprojects.com" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Flask</a>
+                            <a href="https://gemini.google.com/u/1/app/927d3dedda16f789" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Ai coding</a>
+                            <a href="https://git-scm.com" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Git</a>
+                            <a href="https://openai.com" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Ai researching</a>
                         </div>
                     </div>
                 </div>

@@ -21,6 +21,7 @@ export default function Home() {
                 <div className="hero-links">
                     <Link to="/about" className="nav-link cursor-target">О себе</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
+                    <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
                 </div>
                 <div className="logo-loop-container">
                     <LogoLoop

@@ -297,6 +297,118 @@
   font-size: 0.8rem;
 }
 
+/* Socials Page */
+.socials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.03);
+  transition: all 0.4s ease;
+  pointer-events: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.social-card:hover::before {
+  left: 100%;
+}
+
+.social-card:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.06) 100%);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-6px);
+  box-shadow:
+    0 16px 48px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  color: white;
+  flex-shrink: 0;
+}
+
+.github-icon {
+  background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+}
+
+.telegram-icon {
+  background: linear-gradient(135deg, #2AABEE 0%, #229ED9 100%);
+}
+
+.social-info {
+  flex: 1;
+}
+
+.social-name {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.social-username {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.telegram-card {
+  flex-wrap: wrap;
+}
+
+.telegram-qr {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.telegram-qr img {
+  max-width: 200px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.telegram-card:hover .telegram-qr img {
+  transform: scale(1.05);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-title {
