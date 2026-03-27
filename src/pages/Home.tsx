@@ -17,7 +17,6 @@ export default function Home() {
         <div className="page">
             <div className="hero">
                 <h1 className="hero-title cursor-target">s1lph</h1>
-                <p className="hero-subtitle">Учусь, исследую, использую.</p>
                 <div className="hero-links">
                     <Link to="/about" className="nav-link cursor-target">О себе</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>

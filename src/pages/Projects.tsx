@@ -4,24 +4,31 @@ import '../App.css'
 const projects = [
     {
         id: 1,
-        title: 'yo.rote',
-        description: 'Веб-приложение для оптимизации маршрутов доставки с автоматическим геокодингом и визуализацией на интерактивной карте.',
+        title: 'Yo.Route',
+        description: 'Логистическая система',
         tags: ['Python', 'Flask', 'Ai coding'],
         link: 'https://github.com/s1lph/yo-rote'
     },
     {
         id: 2,
         title: 'FishDetect',
-        description: 'Phishing links detector',
+        description: 'Детектор фишинговых ссылок',
         tags: ['Python', 'FastAPI'],
         link: 'https://github.com/s1lph/FishDetect'
     },
     {
         id: 3,
-        title: 'This site',
-        description: 'This site',
+        title: 'Сайт-леднинг',
+        description: 'Репозиторий этого сайта',
         tags: ['React', 'TypeScript'],
-        link: 'https://github.com/s1lph/'
+        link: 'https://github.com/s1lph/s1lph-s-site'
+    },
+    {
+        id: 4,
+        title: 'Karas Messenger',
+        description: 'Безопасный шифрованный мессенджер',
+        tags: ['React', 'TypeScript', 'Java'],
+        link: 'https://github.com/s1lph/messenger'
     }
 ]
 
