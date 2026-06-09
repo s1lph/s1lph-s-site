@@ -28,7 +28,7 @@ const projects = [
         title: 'Karas Messenger',
         description: 'Безопасный шифрованный мессенджер',
         tags: ['React', 'TypeScript', 'Java'],
-        link: 'https://github.com/s1lph/messenger'
+        link: 'https://github.com/s1lph/KarasPublic'
     }
 ]
 
