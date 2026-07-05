@@ -10,6 +10,7 @@ export default function Socials() {
                     <Link to="/" className="nav-link cursor-target">Главная</Link>
                     <Link to="/about" className="nav-link cursor-target">О себе</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
+                    <Link to="/zero-five" className="nav-link cursor-target">zero.five</Link>
                 </div>
             </nav>
 

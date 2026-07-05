@@ -10,6 +10,7 @@ export default function About() {
                     <Link to="/" className="nav-link cursor-target">Главная</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
                     <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
+                    <Link to="/zero-five" className="nav-link cursor-target">zero.five</Link>
                 </div>
             </nav>
 

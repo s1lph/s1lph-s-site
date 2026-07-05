@@ -41,6 +41,7 @@ export default function Projects() {
                     <Link to="/" className="nav-link cursor-target">Главная</Link>
                     <Link to="/about" className="nav-link cursor-target">О себе</Link>
                     <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
+                    <Link to="/zero-five" className="nav-link cursor-target">zero.five</Link>
                 </div>
             </nav>
 
