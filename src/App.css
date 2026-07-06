@@ -84,6 +84,13 @@
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
 
+.ascii-hero {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 260px;
+}
+
 .hero-subtitle {
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.7);
@@ -414,6 +421,10 @@
   .hero-title {
     font-size: 3rem;
     letter-spacing: 4px;
+  }
+
+  .ascii-hero {
+    height: 160px;
   }
 
   .hero-subtitle {

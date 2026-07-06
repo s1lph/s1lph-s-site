@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import LogoLoop from '../components/ui/LogoLoop'
+import ASCIIText from '../components/ui/ASCIIText'
 import { SiPython, SiFlask, SiGit, SiOpenai, SiReact, SiTypescript } from 'react-icons/si'
 import '../App.css'
 
@@ -16,7 +17,15 @@ export default function Home() {
     return (
         <div className="page">
             <div className="hero">
-                <h1 className="hero-title cursor-target">s1lph</h1>
+                <div className="ascii-hero cursor-target">
+                    <ASCIIText
+                        text="s1lph"
+                        enableWaves
+                        asciiFontSize={8}
+                        textFontSize={200}
+                        planeBaseHeight={8}
+                    />
+                </div>
                 <div className="hero-links">
                     <Link to="/about" className="nav-link cursor-target">О себе</Link>
                     <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
