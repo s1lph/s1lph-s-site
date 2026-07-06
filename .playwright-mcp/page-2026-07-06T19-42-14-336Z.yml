@@ -1,0 +1,113 @@
+- generic [ref=e8]:
+  - generic [ref=e14]: ":::+J%#mYf::: #M@@@@@@@@@@@@@@@:: :::1Q#r: MM@@@@@@@@@@@@@@@:: pkM@@@@@@@@o: WMB@@@@@@@@@@@@@@i: M@@@@@@@@@@@z: MM@@@@%&MMMMW@@@@: M8@@@@@@@@@@@@:: MW WM@@@@}: WW@@@@@@@@@@@@@k: WM@@@@:: WM@@@@@@@@%M@@@@@f: MB@@@W: WM@@@@@@@*; M@@@@@a: WM@@@@?: WM@@@@@@@@~ MM@@@@@:: WM@@@@o: wm@@@@@8#abqmC-:: MW@@@@@@@BI MM@@@@@I: M@@@@@: ^:: -1)/ttt(+~::: &@@@@@@@@@@@@@@@@@@a0: WM8@@@@@@@BI MM@@@@%:: WM@@@@W: M@@@0: a%@@@@@@@@@Mvt/+:: WB@@@@@@@@@@@@@@@@@@@@@M} WMW@@@@@C: M@@@@@w: MW@@@@r: M@@@/: WW@@@@@@@@@@@@@@r/[: #@@@@@@@@@@@@@@@@@@@@@@@@O: WMM8@hl #M@@@@Bl: M@@@@@:: M&@@%~Z&%@@@@@@@@@@@@@@@@//: #@@@@@@@@@@@888MMMW@@@@@@&: MO: M@@@@@Y: M8@@@@+: *M@@@U@@@@@@BWMMMWWB@@@@@@//: #B@@@@@m; M&@o M8@@@@b: #M@@@@h: M@@@@@@%U #MM8@@@@/t W8@@@@O{ Mr M@@@@@;: WM@@@@@:: M8@@@@? MM@@@@/: M@@@@8O: M@@@@@m: M&@@@@n: M@@@q: #M@@@W/: W@@@@8Ox:: WM@@@@@-: M@@@@@:: #W@@@?: WM@@@W? W@@@@@@@@W*okOcJQ;: #&@@@@%:: M@@@@B:, M@@@M: WM@@@/? M@@@@@@@@@@@@@@@@@@8d01 WW@@@@BI: M@@@@@:: M@@@M:, WM@@@8t: M@@@@@@@@@@@@@@@@@@@@@or M@@@@@j: M@@@@@;: MW@@@1: M@@@@/: M%@@@@@@@@@@@@@@@@@@@@@O: M@@@@@h: oM@@@@k: M@@@X: WM@@@Ol MM&@@@@@@@@@@@@@@@@@@@&{ M@@@@@v: M@@@@@I: WW@@@/: M@@@@/: W*#MMM&&&8BB@@@@@@&: MW@@@@@:: WM@@@@@: MB@@@:: WM@@@@| M%@@@@: M@@@@@b: W&@@@@a: M@@@/: M8@@@/: #B@@@O: M@@@@@/: M@@@@@;: W8@@@): MW@@@@), Ui &@@@@) M@@@@@h: #&@@@@Z: M@@@U: M8@@@@/: @@Q~: &@@@@@f ::: 8@@@@@@:: WM@@@@B: M@@@@/:: WM@@@@@@/: @@@@%qO_I::: ::Co@@@@@@@&; #M@@@@@@@@@@@@@@@@@_wpdo8B@@%i: )~:::::::$@@@@@@B!1vUcxt1+l:: #@@@@@t):::::, QW@@@@@@@@@@/: @@@@@@@@@@B@@@@@@@@@@@@@@@J MW@@@@@@@@@@@@@@@@@@@@@@@@@@B:: M@@@@@@@@@@@@@@@@@@@@@@@@@W:: M@@@b%MW@@@@@@@@@@@@@@@@@@Q- M@@@@@@@@@@@@@@@@@@@@@@@@t M@@@@@@@@@@@@@@@@@@@@@@@@@@@C: MM@@@@@@@@@@@@@@@@@@@@@@@@@/:: W@@@X8 MB@@@@@@@@@@@@@@@@C( oM@@@@@@@@@@@@@@@@@@@@@O M&@@@@@@@@@@@@@@@@@@@@@@@@@@@: M@@@@@@@@@@@@@@@@@@@@@@@@@h:: M@@@/) WM@@@@@@@@@@@@@@@/l WWB@@@@@@@@@@@@@@@@8 M%8&%&&8%&8B@@@@@@@@@@@@@@@W~: MW@@@@@@@@@@@@@@@WBWMW8&&&%?:: W%@@X: MMB@@@@@@@@@@U! WW#MM#aWW WWW WWW M@@@i: WoMMWW&ou M@@@/: W@@@?: #@@@M: M@@@M: M@@@@?: M@@@@/: M@@@@/: W@@@@"
+  - generic [ref=e16]:
+    - link "О себе" [ref=e17]:
+      - /url: /about
+    - link "Проекты" [ref=e18]:
+      - /url: /projects
+    - link "Соц. сети" [ref=e19]:
+      - /url: /socials
+    - link "zero.five" [ref=e20]:
+      - /url: /zero-five
+  - region "Технологии" [ref=e22]:
+    - generic [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Python" [ref=e26] [cursor=pointer]:
+            - /url: https://python.org
+            - img [ref=e28]
+        - listitem [ref=e30]:
+          - link "Flask" [ref=e31] [cursor=pointer]:
+            - /url: https://flask.palletsprojects.com
+            - img [ref=e33]
+        - listitem [ref=e35]:
+          - link "Git" [ref=e36] [cursor=pointer]:
+            - /url: https://git-scm.com
+            - img [ref=e38]
+        - listitem [ref=e40]:
+          - link "AI" [ref=e41] [cursor=pointer]:
+            - /url: https://openai.com
+            - img [ref=e43]
+        - listitem [ref=e45]:
+          - link "React" [ref=e46] [cursor=pointer]:
+            - /url: https://react.dev
+            - img [ref=e48]
+        - listitem [ref=e50]:
+          - link "TypeScript" [ref=e51] [cursor=pointer]:
+            - /url: https://typescriptlang.org
+            - img [ref=e53]
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link [ref=e57] [cursor=pointer]:
+            - /url: https://python.org
+            - img [ref=e59]
+        - listitem [ref=e61]:
+          - link [ref=e62] [cursor=pointer]:
+            - /url: https://flask.palletsprojects.com
+            - img [ref=e64]
+        - listitem [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: https://git-scm.com
+            - img [ref=e69]
+        - listitem [ref=e71]:
+          - link [ref=e72] [cursor=pointer]:
+            - /url: https://openai.com
+            - img [ref=e74]
+        - listitem [ref=e76]:
+          - link [ref=e77] [cursor=pointer]:
+            - /url: https://react.dev
+            - img [ref=e79]
+        - listitem [ref=e81]:
+          - link [ref=e82] [cursor=pointer]:
+            - /url: https://typescriptlang.org
+            - img [ref=e84]
+      - list [ref=e86]:
+        - listitem [ref=e87]:
+          - link [ref=e88] [cursor=pointer]:
+            - /url: https://python.org
+            - img [ref=e90]
+        - listitem [ref=e92]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: https://flask.palletsprojects.com
+            - img [ref=e95]
+        - listitem [ref=e97]:
+          - link [ref=e98] [cursor=pointer]:
+            - /url: https://git-scm.com
+            - img [ref=e100]
+        - listitem [ref=e102]:
+          - link [ref=e103] [cursor=pointer]:
+            - /url: https://openai.com
+            - img [ref=e105]
+        - listitem [ref=e107]:
+          - link [ref=e108] [cursor=pointer]:
+            - /url: https://react.dev
+            - img [ref=e110]
+        - listitem [ref=e112]:
+          - link [ref=e113] [cursor=pointer]:
+            - /url: https://typescriptlang.org
+            - img [ref=e115]
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link [ref=e119] [cursor=pointer]:
+            - /url: https://python.org
+            - img [ref=e121]
+        - listitem [ref=e123]:
+          - link [ref=e124] [cursor=pointer]:
+            - /url: https://flask.palletsprojects.com
+            - img [ref=e126]
+        - listitem [ref=e128]:
+          - link [ref=e129] [cursor=pointer]:
+            - /url: https://git-scm.com
+            - img [ref=e131]
+        - listitem [ref=e133]:
+          - link [ref=e134] [cursor=pointer]:
+            - /url: https://openai.com
+            - img [ref=e136]
+        - listitem [ref=e138]:
+          - link [ref=e139] [cursor=pointer]:
+            - /url: https://react.dev
+            - img [ref=e141]
+        - listitem [ref=e143]:
+          - link [ref=e144] [cursor=pointer]:
+            - /url: https://typescriptlang.org
+            - img [ref=e146]

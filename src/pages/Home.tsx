@@ -21,9 +21,9 @@ export default function Home() {
                     <ASCIIText
                         text="s1lph"
                         enableWaves
-                        asciiFontSize={7}
+                        asciiFontSize={6}
                         textFontSize={200}
-                        planeBaseHeight={11}
+                        planeBaseHeight={15}
                     />
                 </div>
                 <div className="hero-links">
