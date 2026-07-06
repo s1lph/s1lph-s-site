@@ -87,8 +87,8 @@
 .ascii-hero {
   position: relative;
   width: 100%;
-  max-width: 600px;
-  height: 260px;
+  max-width: 900px;
+  height: 340px;
 }
 
 .hero-subtitle {
@@ -424,7 +424,7 @@
   }
 
   .ascii-hero {
-    height: 160px;
+    height: 200px;
   }
 
   .hero-subtitle {

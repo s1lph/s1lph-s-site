@@ -231,7 +231,8 @@ class CanvasTxt {
       this.context.font = this.font;
       const metrics = this.context.measureText(this.txt);
 
-      const textWidth = Math.ceil(metrics.width) + 20;
+      const rightExtent = Math.max(metrics.width, metrics.actualBoundingBoxRight || 0);
+      const textWidth = Math.ceil(rightExtent) + 40;
       const textHeight = Math.ceil(metrics.actualBoundingBoxAscent + metrics.actualBoundingBoxDescent) + 20;
 
       this.canvas.width = textWidth;
