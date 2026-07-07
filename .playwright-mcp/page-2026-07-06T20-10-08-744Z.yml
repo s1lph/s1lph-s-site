@@ -1,0 +1,53 @@
+- generic [ref=e34]:
+  - navigation [ref=e35]:
+    - link "s1lph" [ref=e36]:
+      - /url: /
+    - generic [ref=e37]:
+      - navigation [ref=e38]:
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - link "О себе" [ref=e41] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e42]:
+            - link "Проекты" [ref=e43] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e44]:
+            - link "Соц. сети" [ref=e45] [cursor=pointer]:
+              - /url: /socials
+          - listitem [ref=e46]:
+            - link "zero.five" [ref=e47] [cursor=pointer]:
+              - /url: /zero-five
+      - generic: Проекты
+  - generic [ref=e48]:
+    - heading "Проекты" [level=1] [ref=e49]
+    - generic [ref=e50]:
+      - link "Yo.Route Логистическая система Python Flask Ai coding" [ref=e51]:
+        - /url: https://github.com/s1lph/yo-rote
+        - heading "Yo.Route" [level=3] [ref=e52]
+        - paragraph [ref=e53]: Логистическая система
+        - generic [ref=e54]:
+          - generic [ref=e55]: Python
+          - generic [ref=e56]: Flask
+          - generic [ref=e57]: Ai coding
+      - link "FishDetect Детектор фишинговых ссылок Python FastAPI" [ref=e58]:
+        - /url: https://github.com/s1lph/FishDetect
+        - heading "FishDetect" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Детектор фишинговых ссылок
+        - generic [ref=e61]:
+          - generic [ref=e62]: Python
+          - generic [ref=e63]: FastAPI
+      - link "Сайт-леднинг Репозиторий этого сайта React TypeScript" [ref=e64]:
+        - /url: https://github.com/s1lph/s1lph-s-site
+        - heading "Сайт-леднинг" [level=3] [ref=e65]
+        - paragraph [ref=e66]: Репозиторий этого сайта
+        - generic [ref=e67]:
+          - generic [ref=e68]: React
+          - generic [ref=e69]: TypeScript
+      - link "Karas Messenger Безопасный шифрованный мессенджер React TypeScript Java" [ref=e70]:
+        - /url: https://github.com/s1lph/KarasPublic
+        - heading "Karas Messenger" [level=3] [ref=e71]
+        - paragraph [ref=e72]: Безопасный шифрованный мессенджер
+        - generic [ref=e73]:
+          - generic [ref=e74]: React
+          - generic [ref=e75]: TypeScript
+          - generic [ref=e76]: Java

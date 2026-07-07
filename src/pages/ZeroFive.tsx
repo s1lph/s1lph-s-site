@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import GooeyNav from '../components/ui/GooeyNav'
+import { navItems } from '../components/ui/navItems'
 import '../App.css'
 
 export default function ZeroFive() {
@@ -6,12 +8,7 @@ export default function ZeroFive() {
         <div className="page">
             <nav className="navbar">
                 <Link to="/" className="nav-brand cursor-target">s1lph</Link>
-                <div className="nav-links">
-                    <Link to="/" className="nav-link cursor-target">Главная</Link>
-                    <Link to="/about" className="nav-link cursor-target">О себе</Link>
-                    <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
-                    <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
-                </div>
+                <GooeyNav items={navItems} initialActiveIndex={3} />
             </nav>
 
             <div className="content-section">

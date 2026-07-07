@@ -1,0 +1,38 @@
+- generic [ref=e7]:
+  - navigation [ref=e8]:
+    - link "s1lph" [ref=e9]:
+      - /url: /
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "О себе" [ref=e14] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e15]:
+            - link "Проекты" [ref=e16] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e17]:
+            - link "Соц. сети" [ref=e18] [cursor=pointer]:
+              - /url: /socials
+          - listitem [ref=e19]:
+            - link "zero.five" [ref=e20] [cursor=pointer]:
+              - /url: /zero-five
+      - generic: О себе
+  - generic [ref=e21]:
+    - heading "О себе" [level=1] [ref=e22]
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Кутузов Дмитрий Алексеевич. Учащийся старшей школы. Веб-разработчик и основатель различных проектов
+      - paragraph [ref=e25]: Для написания кода в данный момент использую ИИ, однако активно учусь разработке
+      - generic [ref=e26]:
+        - heading "Навыки" [level=3] [ref=e27]
+        - generic [ref=e28]:
+          - link "Git" [ref=e29]:
+            - /url: https://git-scm.com
+          - link "Python" [ref=e30]:
+            - /url: https://python.org
+          - link "TypeScript" [ref=e31]:
+            - /url: https://www.typescriptlang.org/
+          - link "Flask" [ref=e32]:
+            - /url: https://flask.palletsprojects.com
+          - link "Aiogram" [ref=e33]:
+            - /url: https://aiogram.dev/

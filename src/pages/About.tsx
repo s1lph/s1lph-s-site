@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import GooeyNav from '../components/ui/GooeyNav'
+import { navItems } from '../components/ui/navItems'
 import '../App.css'
 
 export default function About() {
@@ -6,12 +8,7 @@ export default function About() {
         <div className="page">
             <nav className="navbar">
                 <Link to="/" className="nav-brand cursor-target">s1lph</Link>
-                <div className="nav-links">
-                    <Link to="/" className="nav-link cursor-target">Главная</Link>
-                    <Link to="/projects" className="nav-link cursor-target">Проекты</Link>
-                    <Link to="/socials" className="nav-link cursor-target">Соц. сети</Link>
-                    <Link to="/zero-five" className="nav-link cursor-target">zero.five</Link>
-                </div>
+                <GooeyNav items={navItems} initialActiveIndex={0} />
             </nav>
 
             <div className="content-section">
@@ -31,6 +28,8 @@ export default function About() {
                             <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">TypeScript</a>
                             <a href="https://flask.palletsprojects.com" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Flask</a>
                             <a href="https://aiogram.dev/" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Aiogram</a>
+                            <a href="https://developer.android.com/studio" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">Android Studio</a>
+                            <a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer" className="skill-tag cursor-target">XCode</a>
                         </div>
                     </div>
                 </div>
