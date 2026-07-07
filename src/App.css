@@ -424,7 +424,11 @@
   }
 
   .ascii-hero {
-    height: 200px;
+    height: 220px;
+  }
+
+  .hero {
+    padding: 1.5rem 1rem;
   }
 
   .hero-subtitle {
@@ -432,15 +436,106 @@
     letter-spacing: 2px;
   }
 
+  /* Hero links: wrap so 4 buttons never overflow the viewport */
+  .hero-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .hero-links .nav-link {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.95rem;
+  }
+
+  .logo-loop-container {
+    margin-top: 2.5rem;
+  }
+
+  /* Stack brand over nav so the gooey nav gets the full width */
   .navbar {
-    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .nav-brand {
+    font-size: 1.25rem;
+  }
+
+  /* Shrink the gooey nav so all items fit on a phone.
+     Prefixed with .navbar to outrank GooeyNav.css's own rules.
+     font-size goes on the container so the .effect text/filter overlay
+     spans (siblings of <nav>) match the items and don't ghost. */
+  .navbar .gooey-nav-container {
+    font-size: 0.85rem;
+  }
+
+  .navbar .gooey-nav-container nav ul {
+    gap: 0.35em;
+    padding: 0;
+  }
+
+  .navbar .gooey-nav-container nav ul li a {
+    padding: 0.5em 0.7em;
   }
 
   .content-section {
-    padding: 1.5rem;
+    padding: 1.5rem 1.25rem;
   }
 
   .section-title {
     font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  /* Single column so cards never overflow narrow screens */
+  .projects-grid,
+  .socials-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .social-card {
+    gap: 1rem;
+    padding: 1.25rem 1.25rem;
+  }
+
+  .social-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .social-name {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .navbar .gooey-nav-container {
+    font-size: 0.78rem;
+  }
+
+  .navbar .gooey-nav-container nav ul {
+    gap: 0.2em;
+  }
+
+  .navbar .gooey-nav-container nav ul li a {
+    padding: 0.5em 0.55em;
+  }
+
+  .hero-links .nav-link {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.9rem;
   }
 }
