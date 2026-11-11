@@ -1,2 +1,2 @@
 # s1lph's landing
-Site built with reactbits.dev and Claude 
+### Site built on React with reactbits.dev, 21st.dev design elements
