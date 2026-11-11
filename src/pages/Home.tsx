@@ -13,12 +13,13 @@ const techLogos = [
     { node: <SiTypescript />, title: "TypeScript", href: "https://typescriptlang.org" },
 ]
 
-export default function Home() {
+export default function Home({ onReady }: { onReady?: () => void }) {
     return (
         <div className="page">
             <div className="hero">
-                <div className="ascii-hero cursor-target">
+                <div className="ascii-hero">
                     <ASCIIText
+                        onReady={onReady}
                         text="s1lph"
                         enableWaves
                         asciiFontSize={6}

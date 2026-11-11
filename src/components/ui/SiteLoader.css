@@ -1,0 +1,13 @@
+.site-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  background: #100b16;
+  color: #fdf9f3;
+}
+
+html:has(.site-loader) {
+  overflow: hidden;
+}

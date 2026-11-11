@@ -23,8 +23,9 @@
   flex-direction: column;
 }
 
-/* Hide default cursor on target elements */
-.cursor-target {
+/* Hide native cursors only while the custom cursor is mounted. */
+html.custom-cursor-active,
+html.custom-cursor-active * {
   cursor: none !important;
 }
 

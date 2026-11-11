@@ -474,6 +474,7 @@ class CanvAscii {
 }
 
 interface ASCIITextProps {
+  onReady?: () => void;
   text?: string;
   asciiFontSize?: number;
   textFontSize?: number;
@@ -483,6 +484,7 @@ interface ASCIITextProps {
 }
 
 export default function ASCIIText({
+  onReady,
   text = 'David!',
   asciiFontSize = 8,
   textFontSize = 200,
@@ -508,6 +510,10 @@ export default function ASCIIText({
         h
       );
       await instance.init();
+      if (cancelled) {
+        instance.dispose();
+        return null;
+      }
       return instance;
     };
 
@@ -524,9 +530,11 @@ export default function ASCIIText({
               observer = null;
 
               if (!cancelled) {
-                asciiRef.current = await createAndInit(containerRef.current!, w, h);
-                if (!cancelled && asciiRef.current) {
-                  asciiRef.current.load();
+                const instance = await createAndInit(containerRef.current!, w, h);
+                if (!cancelled && instance) {
+                  asciiRef.current = instance;
+                  instance.load();
+                  onReady?.();
                 }
               }
             }
@@ -537,9 +545,11 @@ export default function ASCIIText({
         return;
       }
 
-      asciiRef.current = await createAndInit(containerRef.current!, width, height);
-      if (!cancelled && asciiRef.current) {
-        asciiRef.current.load();
+      const instance = await createAndInit(containerRef.current!, width, height);
+      if (!cancelled && instance) {
+        asciiRef.current = instance;
+        instance.load();
+        onReady?.();
 
         ro = new ResizeObserver(entries => {
           if (!entries[0] || !asciiRef.current) return;
@@ -563,7 +573,7 @@ export default function ASCIIText({
         asciiRef.current = null;
       }
     };
-  }, [text, asciiFontSize, textFontSize, textColor, planeBaseHeight, enableWaves]);
+  }, [text, asciiFontSize, textFontSize, textColor, planeBaseHeight, enableWaves, onReady]);
 
   return (
     <div
@@ -576,8 +586,6 @@ export default function ASCIIText({
       }}
     >
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&display=swap');
-
         .ascii-text-container canvas {
           position: absolute;
           left: 0;
