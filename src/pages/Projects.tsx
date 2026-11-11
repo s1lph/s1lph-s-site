@@ -7,8 +7,8 @@ const projects = [
     {
         id: 1,
         title: 'Yo.Route',
-        description: 'Логистическая система',
-        tags: ['Python', 'Flask', 'Ai coding'],
+        description: 'Логистическая CRM система',
+        tags: ['Python', 'Flask'],
         link: 'https://github.com/s1lph/yo-rote'
     },
     {
@@ -31,6 +31,20 @@ const projects = [
         description: 'Безопасный шифрованный мессенджер',
         tags: ['React', 'TypeScript', 'Java'],
         link: 'https://github.com/s1lph/KarasPublic'
+    },
+    {
+        id: 5,
+        title: 'Visual Lyrics Spicetify',
+        description: 'Полноэкранный режим отображения текста песен в Spotify.',
+        tags: ['JavaScript', 'Spicetify'],
+        link: 'https://github.com/s1lph/visual-lyrics-spicetify'
+    },
+    {
+        id: 6,
+        title: 's1lph-s-AI-pack',
+        description: 'Настройки, плагины и скиллы для агентных систем типа ChatGPT.',
+        tags: [],
+        link: 'https://github.com/s1lph/s1lph-s-AI-pack'
     }
 ]
 

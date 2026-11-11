@@ -15,7 +15,7 @@ export default function About() {
                 <h1 className="section-title cursor-target">О себе</h1>
                 <div className="about-content">
                     <p className="about-text">
-                        <span className="highlight">Кутузов Дмитрий Алексеевич</span>. Учащийся старшей школы. Веб-разработчик и основатель различных проектов
+                        <span className="highlight">Кутузов Дмитрий Алексеевич</span>. Учащийся 11 "инженерного" класса. Веб-разработчик и основатель различных проектов
                     </p>
                     <p className="about-text">
                         Для написания кода в данный момент использую ИИ, однако <span className="highlight">активно учусь разработке</span>
